@@ -52,42 +52,42 @@ class _PersonalFormState extends State<PersonalForm> {
                           labelText: 'Name',
                         ),
                       ),
-                      SizedBox(height: 16,),
+                      SizedBox(height: 8,),
                       TextFieldBlocBuilder(
                         textFieldBloc: formBloc.sname,
                         decoration: const InputDecoration(
                           labelText: 'SurName',
                         ),
                       ),
-                      SizedBox(height: 16,),
+                      SizedBox(height: 8,),
                       TextFieldBlocBuilder(
                         textFieldBloc: formBloc.age,
                         decoration: const InputDecoration(
                           labelText: 'Age',
                         ),
                       ),
-                      SizedBox(height: 16,),
+                      SizedBox(height: 8,),
                       TextFieldBlocBuilder(
                         textFieldBloc: formBloc.tel,
                         decoration: const InputDecoration(
                           labelText: 'Tel',
                         ),
                       ),
-                      SizedBox(height: 16,),
+                      SizedBox(height: 8,),
                       TextFieldBlocBuilder(
                         textFieldBloc: formBloc.idCard,
                         decoration: const InputDecoration(
                           labelText: 'Id Card',
                         ),
                       ),
-                      SizedBox(height: 16,),
+                      SizedBox(height: 8,),
                       TextFieldBlocBuilder(
                         textFieldBloc: formBloc.address,
                         decoration: const InputDecoration(
                           labelText: 'Address',
                         ),
                       ),
-                      SizedBox(height: 16,),
+                      SizedBox(height: 8,),
                       ElevatedButton(
                           onPressed: formBloc.submit, child: Text('Submit')
                       )
